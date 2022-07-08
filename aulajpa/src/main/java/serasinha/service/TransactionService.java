@@ -18,9 +18,9 @@ public class TransactionService {
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public String createTransaction(
-            @FormParam("buyer_account_id") Long buyer_account_id, 
-            @FormParam("seller_account_id") Long seller_account_id, 
-            @FormParam("value") Float value
+            Long buyer_account_id, 
+            Long seller_account_id, 
+            Float value
     ) {
 		SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
 		String data = formato.format(new Date());
