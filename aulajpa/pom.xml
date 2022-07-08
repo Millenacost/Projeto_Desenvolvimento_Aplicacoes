@@ -17,6 +17,26 @@
 			  <artifactId>javax.ws.rs-api</artifactId>
 			  <version>2.0.1</version>
 		  </dependency>
+
+		  <dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jackson-provider</artifactId>
+			<version>2.3.7.Final</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jaxrs</artifactId>
+			<version>2.3.7.Final</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.enterprise</groupId>
+			<artifactId>cdi-api</artifactId>
+			<version>2.0</version>
+			<scope>provided</scope>
+		</dependency>
+		
 		  <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 		  <dependency>
 			  <groupId>org.hibernate</groupId>

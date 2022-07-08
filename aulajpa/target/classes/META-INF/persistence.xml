@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+    version="2.1">
+    <persistence-unit name="heroku_e68fadef3b7bb0c" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>        
+        <properties>
+            <property name="javax.persistence.jdbc.url" 
+            	value="jdbc:mysql://us-cdbr-east-06.cleardb.net/heroku_e68fadef3b7bb0c?reconnect=true" />
+            <property name="hibernate.dialect" 
+            	value="org.hibernate.dialect.MySQL5Dialect" />
+ 			<property name="javax.persistence.jdbc.driver" 
+ 				value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.user" value="b4a8d271255fff" />
+            <property name="javax.persistence.jdbc.password" value="e9869638" />
+            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.show_sql"  value = "true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
+
+
+ <!--value="jdbc:mysql://localhost/serasinhadb" -->

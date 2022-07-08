@@ -5,15 +5,18 @@ import java.util.Date;
 
 //import javax.persistence.*;
 import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+
 import serasinha.model.*;
 
 @Path("transaction")
-@Produces({"application/json", "application/xml"})
-@Consumes({"application/json", "application/xml"})
+@Produces(MediaType.APPLICATION_JSON)
+// @Consumes(MediaType.APPLICATION_JSON)
 public class TransactionService {
 	
 	@POST
-	@Consumes
+	@Path("/")
+	@Consumes(MediaType.APPLICATION_JSON)
 	public String createTransaction(
             @FormParam("buyer_account_id") Long buyer_account_id, 
             @FormParam("seller_account_id") Long seller_account_id, 
