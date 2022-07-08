@@ -1,4 +1,4 @@
-package serasinha.model;
+package model;
 
 import javax.persistence.*;
 

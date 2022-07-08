@@ -1,4 +1,4 @@
-package serasinha.service;
+package service;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -7,7 +7,7 @@ import java.util.Date;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
-import serasinha.model.*;
+import model.*;
 
 @Path("transaction")
 @Produces(MediaType.APPLICATION_JSON)

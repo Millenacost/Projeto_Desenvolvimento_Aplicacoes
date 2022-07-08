@@ -1,7 +1,6 @@
-package serasinha.aplicacao;
+package aplicacao;
 
-//import javax.persistence.*;
-import serasinha.model.*;
+import model.*;
 
 public class Main {
 

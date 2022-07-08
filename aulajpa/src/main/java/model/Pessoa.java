@@ -1,3 +1,4 @@
+package model;
 //package serasinha.model;
 //
 //import java.io.Serializable;
