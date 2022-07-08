@@ -91,7 +91,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>webapp.App</mainClass>
+                            <mainClass>service.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
