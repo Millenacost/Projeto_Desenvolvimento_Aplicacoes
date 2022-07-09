@@ -1,1 +1,1 @@
-java -jar target/dependency/aulajpa.jar target/*.war
+web: java -jar target/dependency/aulajpa.jar target/*.war
