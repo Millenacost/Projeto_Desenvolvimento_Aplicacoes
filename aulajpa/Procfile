@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* service.App
+java -jar target/dependency/aulajpa.jar target/*.war
