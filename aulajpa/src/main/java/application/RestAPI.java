@@ -15,6 +15,7 @@ public class RestAPI extends Application {
 
     public RestAPI() throws ClassNotFoundException, SQLException{
         this.singletons.add( new TransactionService() );
+        System.out.println("Hello!");
     }
 
     @Override
